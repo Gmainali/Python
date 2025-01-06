@@ -1,5 +1,7 @@
 
 ## Simplified Code:
+float() handles both integers and floating-point numbers
+
 ```python
 ## Asking the user for two numbers
 num1 = float(input('Please enter your first number: '))
