@@ -1,4 +1,4 @@
-# Python Learning Labs
+## Python Learning Labs
 
 Welcome to my Python Learning Labs repository! This repository contains code examples and exercises to help you learn Python and understand its basic concepts, such as variables, data types, and more.
 
@@ -6,7 +6,7 @@ Welcome to my Python Learning Labs repository! This repository contains code exa
 
 In this lab, we explore different Python data types and print their values and types.
 
-### Code Example
+### Code
 
 ```python
 # Printing out the Hello World
@@ -52,12 +52,11 @@ print("=========================")
 '''
 This is a multi-line comment in Python
 '''
-#=========================#
-
+```
 
 
 ## Output
-
+```
 Hello World!, Python Variables
 =========================
 10
@@ -77,4 +76,4 @@ Hello World!, Python Variables
 <class 'memoryview'>
 <class 'NoneType'>
 =========================
-
+```
