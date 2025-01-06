@@ -9,12 +9,12 @@ In this lab, we explore different Python data types and print their values and t
 ### Code Example
 
 ```python
-# Print
+# Printing out the Hello World
 print('Hello World!,','Python Variables')
 print("=========================")
 
-# Numeric Types
-my_integer = 10  # -12
+# Declaring Numeric Types
+my_integer = 10 # -12
 my_float = 3.14
 my_complex_number = 2 + 3j
 my_list = [1, 2, 3, 4, 5]
@@ -30,7 +30,7 @@ my_bytearray = bytearray([65, 66, 67])
 my_memoryview = memoryview(b"Hello")
 x = None
 
-# Print data types
+# Printing out the Variables and it's Type classes
 print(my_integer)
 print(type(my_integer))
 print(type(my_float))
@@ -45,10 +45,15 @@ print(type(my_frozenset))
 print(type(is_active))
 print(type(my_bytes))
 print(type(my_bytearray))
-print(type(my_memoryview))
+print(type(my_memoryview ))
 print(type(x))
+print("=========================")
 
-print("=========================")```
+'''
+This is a multi-line comment in Python
+'''
+#=========================#
+
 
 
 ## Output
