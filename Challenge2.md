@@ -1,5 +1,26 @@
-## The code will take input of two numbers and performs the summation.
 
+## Simplified Code:
+```python
+## Asking the user for two numbers
+num1 = float(input('Please enter your first number: '))
+num2 = float(input('Please enter your second number: '))
+
+## Calculating the sum
+sum = num1 + num2
+
+## Printing out the result
+print('The sum of your numbers is:', sum)
+```
+
+### Output:
+```
+Please enter your first number: 1
+Please enter your second number: 2.1
+The sum of your numbers is: 3.1
+```
+
+
+## Complex: Takes input of two numbers and performs the summation.
 ```python
 # Declaring Variables
 first_number = 1
@@ -63,7 +84,7 @@ print('Total Sum of the numbers are: ', total_sum)
 print("=" * 45)
 ```
 
-## Output:
+### Output:
 ```
 This script adds declared integers:
 Total Sum of the numbers are:  3.1
@@ -79,3 +100,4 @@ Input your second number for sum? 21
 Total Sum of the numbers are:  23.3
 =============================================
 ```
+
