@@ -14,7 +14,7 @@ These operators are used to perform basic math operations like addition, subtrac
 - `%` : **Modulus** (Getting the remainder)
 - `**` : **Exponentiation** (Raising things to the power of!)
 
-### Example:
+#### Example:
 ```python
 a = 10
 b = 3
@@ -38,7 +38,7 @@ These operators help you compare values to check if they are equal, not equal, o
 - `>=` : **Greater than or equal to**
 - `<=` : **Less than or equal to**
 
-### Example:
+#### Example:
 ```python
 a = 10
 b = 20
@@ -58,7 +58,7 @@ These operators help you make logical decisions between conditions. 🤔
 - `or` : **Returns True if at least one condition is true**
 - `not` : **Inverts the truth value**
 
-### Example:
+#### Example:
 ```python
 a = 10
 b = 20
@@ -81,7 +81,7 @@ These operators assign values to variables and update them! 📈
 - `%=` : **Modulus and assign**
 - `**=` : **Exponentiate and assign**
 
-### Example:
+#### Example:
 ```python
 a = 5
 a += 3  # a = a + 3, so a becomes 8
@@ -102,7 +102,7 @@ Bitwise operators allow you to perform operations on bits (binary numbers). 🧑
 - `>>` : **Right Shift (Shifts bits to the right)**
 
 
-### Example:
+#### Example:
 ```python
 a = 5  # Binary: 0101
 b = 3  # Binary: 0011
@@ -129,7 +129,7 @@ These operators check if a value exists within a container, like a list or strin
 - `in` : **Returns True if the value is found in the iterable**
 - `not in` : **Returns True if the value is not found in the iterable**
 
-### Example:
+#### Example:
 ```python
 a = [1, 2, 3, 4, 5]
 print(3 in a)       # Output: True (3 is in the list)
@@ -162,7 +162,7 @@ Unary operators work on single operands and can either modify the value or retur
 - `not` : **Logical NOT (Inverts the boolean value)**
 - `~` : **Bitwise NOT (Inverts all bits)**
 
-### Example:
+#### Example:
 ```python
 a = 10
 print(+a)  # Output: 10 (Unary plus, no change)
@@ -175,7 +175,7 @@ Lambda functions are small anonymous functions you can use on the fly. ⚡
 
 - `lambda` : **Creates a function without a name, useful for simple tasks**
 
-### Example:
+#### Example:
 ```python
 add = lambda x, y: x + y
 print(add(3, 5))  # Output: 8
